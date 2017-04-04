@@ -3,7 +3,10 @@
 This repository is primarily for keeping binary releases of the Shoes 4 Windows
 app templates around.
 
-Actual sources for the packages aren't kept in git because of their size.
+Actual sources for the packages mostly aren't kept in git because of their
+size. The exceptions are in the `base` directory for some of the scripts,
+largely for easier reference (although I may automate picking those up before
+I'm done with the whole business here).
 
 ## App Template Updates
 
