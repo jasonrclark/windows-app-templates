@@ -14,8 +14,8 @@ The general process for revising a package is:
 
 * Download the last package available
 * Unzip the package into a `windows-app-template`
-* Make updates to code in the `windows-app-template` directory
-* `zip -r windows-app-template-NEWVERSIONUMBER windows-app-template`
+* If updates needed to `app.bat` make them in the `base` directory
+* Run `./build.rb 0.0.1` with your desired version number
 * Upload resulting zipfile to a new release
 * Upload a compatible `jdk.zip` alongside (can reuse from prior releases if
   not updating)
