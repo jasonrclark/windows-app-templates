@@ -15,4 +15,4 @@ if %ERRORLEVEL%==9009 (
   set JAVA_HOME=%USERPROFILE%\.shoes\jdk
 )
 
-java -jar app.jar
+java -jar %~dp0\app.jar
